@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-11T18:08:36 IST" name="Default suite" finished-at="2021-06-11T18:10:52 IST" duration-ms="135928">
+    <groups>
+    </groups>
+    <test started-at="2021-06-11T18:08:36 IST" name="Default test" finished-at="2021-06-11T18:10:52 IST" duration-ms="135928">
+      <class name="pumaAutomation1.NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:08:36 IST" name="beforeTest" finished-at="2021-06-11T18:08:36 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:08:36 IST" name="beforeClass" finished-at="2021-06-11T18:08:38 IST" duration-ms="2296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="GoogleSearch()[pri:1, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:08:38 IST" name="GoogleSearch" description="Open Puma - through Google Search" finished-at="2021-06-11T18:09:03 IST" duration-ms="24655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method signature="MouseHoverImageClick()[pri:3, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:09:03 IST" name="MouseHoverImageClick" description="Mouse hover on 7 inch and click on Image" finished-at="2021-06-11T18:09:21 IST" duration-ms="18202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHoverImageClick -->
+        <test-method signature="clickOnPriceSelectLessthan1000()[pri:4, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:09:21 IST" name="clickOnPriceSelectLessthan1000" description="Click on Price and Select less than 1000" finished-at="2021-06-11T18:09:34 IST" duration-ms="12356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPriceSelectLessthan1000 -->
+        <test-method signature="selectSizeL()[pri:5, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:09:34 IST" name="selectSizeL" description="Select size L and close size pop up" finished-at="2021-06-11T18:09:44 IST" duration-ms="10409" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()[normalize-space()='L']]"}
+  (Session info: chrome=91.0.4472.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'SHREE-PC', ip: '192.168.140.175', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ce76086e94d0689e4b970dd4be5d004
+*** Element info: {Using=xpath, value=//span[text()[normalize-space()='L']]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()[normalize-space()='L']]"}
+  (Session info: chrome=91.0.4472.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'SHREE-PC', ip: '192.168.140.175', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ce76086e94d0689e4b970dd4be5d004
+*** Element info: {Using=xpath, value=//span[text()[normalize-space()='L']]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pumaAutomation1.NewTest.selectSizeL(NewTest.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSizeL -->
+        <test-method signature="sortBy_PriceLowtoHigh()[pri:6, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:09:44 IST" name="sortBy_PriceLowtoHigh" description="Sort - Price Low to High and Scroll down" finished-at="2021-06-11T18:09:45 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortBy_PriceLowtoHigh -->
+        <test-method signature="seectResult()[pri:7, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:09:45 IST" name="seectResult" description="Select one result &amp; take screenshot in excel" finished-at="2021-06-11T18:10:20 IST" duration-ms="34476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seectResult -->
+        <test-method signature="sizeGuideLsize()[pri:8, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:10:20 IST" name="sizeGuideLsize" description="Scroll up, Check size guide and take L size guide" finished-at="2021-06-11T18:10:32 IST" duration-ms="12580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sizeGuideLsize -->
+        <test-method signature="selectsizeMaddToCart()[pri:9, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:10:32 IST" name="selectsizeMaddToCart" description="Select size M, Add to Cart, Screenshot" finished-at="2021-06-11T18:10:50 IST" duration-ms="17787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectsizeMaddToCart -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pumaAutomation1.NewTest@7b8233cd]" started-at="2021-06-11T18:10:50 IST" name="afterClass" finished-at="2021-06-11T18:10:52 IST" duration-ms="1677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pumaAutomation1.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
